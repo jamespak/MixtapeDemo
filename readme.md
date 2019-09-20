@@ -1,7 +1,7 @@
 Hello Highspot,
 
 This console application accepts three arguments. 
-batch.py \<input file name> \<output file name>
+batch.py \<input file name> \<change file name> \<output file name>
 
 It is written on python 3.7 and uses json and sys packages which are parts of the python 3 standard library, so you shouldn't have to manually install them.
 

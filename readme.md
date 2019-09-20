@@ -75,4 +75,8 @@ If the input file or change file are very large, there can be several approaches
 
 2. The easiest way would probably be just to order up a bigger virtual box (if you are running in AWS or other services) and the batch.py. 
 
-3. I learned Python while taking data science class, and usually work with pandas dataframes in order to work with large sets of data. Pandas supports JSON normalizing 
+3. I learned Python while taking data science class, and usually work with pandas dataframes in order to work with large sets of data. Pandas supports JSON normalizing and loading to dataframes. Something like this: 
+
+    ``` df = json_normalize(inputs['playlists']) ```
+
+    You can the use dataframe to match and process the JSON data which should be faster.

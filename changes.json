@@ -1,0 +1,55 @@
+{
+   
+    "playlists": [
+        {
+            "id": "1",
+            "user_id": "2", 
+            "action": "add",
+            "song_ids": [
+                "A",
+                "3",
+                ""
+            ]
+        },
+        {
+            "id": "2",
+            "user_id": "5", 
+            "action": "add",
+            "song_ids": [
+                "6",
+                "5",
+                "8"
+            ]
+        },
+        {
+            "id": "3",
+            "action": "add",
+            "song_ids": [
+                "6",
+                "5",
+                "8"
+            ]
+        },
+        {
+            "id": "",
+            "action": "add",
+            "user_id": "2",
+            "song_ids": [
+                "11",
+                "5",
+                "8"
+            ]
+        },
+        {
+            "id": "",
+            "action": "add",
+            "user_id": "5",
+            "song_ids": [
+                "11",
+                "11",
+                "A"
+            ]
+        }
+        
+    ]
+}
